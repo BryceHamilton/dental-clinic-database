@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.back {
+  padding: 10px;
+}
+
+.middle {
+  height: 100vh;
+  align-items: center;
+}
+
+/* Table CSS */
+
+table {
+  border-collapse: collapse;
+}
+
+.cell {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cell div:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.row:hover {
+  background-color: #f2f2f2;
+}
+
+.head {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}

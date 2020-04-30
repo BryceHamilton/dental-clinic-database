@@ -1,0 +1,51 @@
+.grid {
+    display: grid;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-style: italic;
+}
+       
+.row {
+    display: flex;
+}
+
+
+
+.back {
+    padding: 10px;
+}
+
+.middle {
+    height: 100vh;
+    align-items: center;
+}
+
+.cell {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  .cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .cell div:nth-child(even){background-color: #f2f2f2;}
+  
+  .row div:hover {background-color: #ddd;}
+  
+  .head {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    background-color: red;
+    color: white;
+  }

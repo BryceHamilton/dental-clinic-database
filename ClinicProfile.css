@@ -1,0 +1,13 @@
+.new-dentist-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-dentist-btn:focus {
+  outline: none;
+}
